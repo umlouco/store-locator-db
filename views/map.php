@@ -1,0 +1,19 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCq9yqEVPfrhoLxq3BGwT8XDryry6aaEoM&callback=initAutocomplete&libraries=places&v=weekly" defer></script>
+<div class="flex_column av_one_half  flex_column_div av-zero-column-padding first  " style="border-radius:0px; ">
+    <p> Seleccione la ubicación para buscar comenzando ingresando la dirección (o ubicación, ciudad, código postal ...) o haga clic en "Usar mi ubicación" para ver los resultados en el mapa. <br>
+        (¡Atención! Para aprovechar la función que detecta automáticamente su ubicación, deberá habilitar "compartir ubicación" en su dispositivo o navegador).</p>
+</div>
+<div class="flex_column av_one_half  flex_column_div av-zero-column-padding   " style="border-radius:0px; ">
+    <form autocomplete="off" name="wpv-filter-6050" action="/sustenium/?wpv_view_count=6050" method="get" class="wpv-filter-form js-wpv-filter-form js-wpv-filter-form-6050 js-wpv-form-full" data-viewnumber="6050" data-viewid="6050" data-viewhash="eyJuYW1lIjoic3RvcHJlLWxvY2F0b3IifQ==" data-viewwidgetid="0" data-orderby="" data-order="" data-orderbyas="" data-orderbysecond="" data-ordersecond="" data-parametric="{&quot;query&quot;:&quot;normal&quot;,&quot;id&quot;:&quot;6050&quot;,&quot;view_id&quot;:&quot;6050&quot;,&quot;widget_id&quot;:0,&quot;view_hash&quot;:&quot;6050&quot;,&quot;action&quot;:&quot;\/sustenium\/?wpv_view_count=6050&quot;,&quot;sort&quot;:{&quot;orderby&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orderby_as&quot;:&quot;&quot;,&quot;orderby_second&quot;:&quot;&quot;,&quot;order_second&quot;:&quot;&quot;},&quot;orderby&quot;:&quot;&quot;,&quot;order&quot;:&quot;&quot;,&quot;orderby_as&quot;:&quot;&quot;,&quot;orderby_second&quot;:&quot;&quot;,&quot;order_second&quot;:&quot;&quot;,&quot;ajax_form&quot;:&quot;&quot;,&quot;ajax_results&quot;:&quot;&quot;,&quot;effect&quot;:&quot;fade&quot;,&quot;prebefore&quot;:&quot;&quot;,&quot;before&quot;:&quot;&quot;,&quot;after&quot;:&quot;&quot;,&quot;attributes&quot;:[],&quot;environment&quot;:{&quot;current_post_id&quot;:6051,&quot;parent_post_id&quot;:6051,&quot;parent_term_id&quot;:0,&quot;parent_user_id&quot;:0,&quot;archive&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[]}},&quot;loop&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[],&quot;id&quot;:0}}" data-attributes="[]" data-environment="{&quot;current_post_id&quot;:6051,&quot;parent_post_id&quot;:6051,&quot;parent_term_id&quot;:0,&quot;parent_user_id&quot;:0,&quot;archive&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[]}}"><input type="hidden" class="js-wpv-dps-filter-data js-wpv-filter-data-for-this-form" data-action="/sustenium/?wpv_view_count=6050" data-page="1" data-ajax="disable" data-effect="fade" data-maxpages="0" data-ajaxprebefore="" data-ajaxbefore="" data-ajaxafter=""><input class="wpv_view_count wpv_view_count-6050" type="hidden" name="wpv_view_count" value="6050"><br>
+        <br>
+        <div class="form-group">
+            <input id="pac-input" type="text" min="0" id="toolset-maps-distance-center" name="toolset_maps_distance_center" class="form-control js-toolset-maps-distance-center js-wpv-filter-trigger-delayed js-toolset-maps-address-autocomplete pac-target-input" value="" placeholder="Cerca vicino a (città, CAP...)" autocomplete="off">
+            <input id="my-position" type="button" class="avia-button  avia-color-orange   avia-icon_select-no avia-size-small avia-position-center" value="Usa la mia posizione" style="font: 14px / 1 FontAwesome, Roboto, sans-serif; display: inline-block;"> </div><br>
+        <br>
+    </form>
+    <p></p>
+</div>
+
+<div id="mf-stor-locator"></div>
